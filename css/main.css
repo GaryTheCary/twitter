@@ -1,0 +1,213 @@
+* {
+  background: rgba(0,0,0,0.05);
+}
+body {
+  margin: 0;
+  width: 100%;
+  height: 500%;
+  position: absolute;
+  background: -webkit-repeating-linear-gradient(#a1feff, #b2f8ed) !important;
+  background: -o-repeating-linear-gradient(#a1feff, #b2f8ed) !important;
+  background: -moz-linear-gradient(#a1feff, #b2f8ed) !important;
+  background: linear-gradient(#a1feff, #b2f8ed) !important;
+}
+.container {
+  position: absolute;
+  background: -webkit-repeating-linear-gradient(#a1feff, #b2f8ed) !important;
+  background: -o-repeating-linear-gradient(#a1feff, #b2f8ed) !important;
+  background: -moz-linear-gradient(#a1feff, #b2f8ed) !important;
+  background: linear-gradient(#a1feff, #b2f8ed) !important;
+}
+.nav {
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+}
+.menu {
+  position: relative;
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 10%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+.menu:before,
+.menu:after {
+  content: '';
+  display: table;
+}
+.menu:after {
+  clear: both;
+}
+.menu > #sidebar {
+  margin-left: 1rem;
+}
+.logo {
+  position: relative;
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 80%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+.logo:before,
+.logo:after {
+  content: '';
+  display: table;
+}
+.logo:after {
+  clear: both;
+}
+#logo {
+  *zoom: 1;
+  width: auto;
+  max-width: 10%;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+#logo:before,
+#logo:after {
+  content: '';
+  display: table;
+}
+#logo:after {
+  clear: both;
+}
+.other {
+  position: relative;
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 10%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+.other:before,
+.other:after {
+  content: '';
+  display: table;
+}
+.other:after {
+  clear: both;
+}
+.other > #other {
+  float: right;
+  margin-right: 0.9rem;
+}
+.textfield {
+  position: relative;
+  *zoom: 1;
+  width: auto;
+  max-width: 80%;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  height: 10%;
+  margin-top: 10rem;
+}
+.textfield:before,
+.textfield:after {
+  content: '';
+  display: table;
+}
+.textfield:after {
+  clear: both;
+}
+#inputbox {
+  position: relative;
+  margin-top: 1rem;
+}
+.btnfield {
+  position: relative;
+  margin-top: 2rem;
+  height: auto;
+  *zoom: 1;
+  width: auto;
+  max-width: 20%;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+.btnfield:before,
+.btnfield:after {
+  content: '';
+  display: table;
+}
+.btnfield:after {
+  clear: both;
+}
+.startBtn {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 50%;
+  margin-left: 0%;
+  margin-right: 0%;
+  position: relative;
+}
+.startBtn:before,
+.startBtn:after {
+  content: '';
+  display: table;
+}
+.startBtn:after {
+  clear: both;
+}
+.startBtn > button {
+  float: right;
+}
+.stopBtn {
+  position: relative;
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 50%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+.stopBtn:before,
+.stopBtn:after {
+  content: '';
+  display: table;
+}
+.stopBtn:after {
+  clear: both;
+}
+.viewfield {
+  *zoom: 1;
+  width: auto;
+  max-width: 50%;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+  margin-top: 2rem;
+}
+.viewfield:before,
+.viewfield:after {
+  content: '';
+  display: table;
+}
+.viewfield:after {
+  clear: both;
+}

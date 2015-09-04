@@ -1,0 +1,34 @@
+[Wed Sep 02 11:00:18 2015] [notice] Digest: generating secret for digest authentication ...
+[Wed Sep 02 11:00:18 2015] [notice] Digest: done
+[Wed Sep 02 11:00:18 2015] [notice] FastCGI: process manager initialized (pid 872)
+[Wed Sep 02 11:00:18 2015] [notice] Apache/2.2.29 (Unix) mod_wsgi/3.4 Python/2.7.8 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zf DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.8 Perl/v5.20.0 configured -- resuming normal operations
+[Wed Sep 02 11:01:00 2015] [error] [client ::1] Directory index forbidden by Options directive: /Users/GaryZren/Desktop/twitter/
+[Wed Sep 02 11:01:00 2015] [error] [client ::1] File does not exist: /Users/GaryZren/Desktop/twitter/favicon.ico, referer: http://garys-macbook-pro-2.local:5757/
+[Wed Sep 02 11:35:21 2015] [error] [client ::1] File does not exist: /Users/GaryZren/Desktop/twitter/gethashtag
+[Wed Sep 02 11:37:45 2015] [error] [client ::1] File does not exist: /Users/GaryZren/Desktop/twitter/favicon.ico, referer: http://localhost:8888/server/gethashtag.php
+[Wed Sep 02 11:56:51 2015] [error] [client ::1] File does not exist: /Users/GaryZren/Desktop/twitter/jade/[object Object], referer: http://garys-macbook-pro-2.local:5757/jade/?ckcachecontrol=1441209402
+[Wed Sep 02 11:58:25 2015] [error] [client ::1] File does not exist: /Users/GaryZren/Desktop/twitter/jade/[object Object], referer: http://garys-macbook-pro-2.local:5757/jade/?ckcachecontrol=1441209402
+[Wed Sep 02 11:58:42 2015] [error] [client ::1] File does not exist: /Users/GaryZren/Desktop/twitter/jade/[object Object], referer: http://garys-macbook-pro-2.local:5757/jade/?ckcachecontrol=1441209518
+[Wed Sep 02 11:59:40 2015] [error] [client ::1] File does not exist: /Users/GaryZren/Desktop/twitter/jade/[object Object], referer: http://garys-macbook-pro-2.local:5757/jade/?ckcachecontrol=1441209573
+[Wed Sep 02 12:01:34 2015] [error] [client ::1] File does not exist: /Users/GaryZren/Desktop/twitter/jade/[object Object], referer: http://garys-macbook-pro-2.local:5757/jade/?ckcachecontrol=1441209686
+[Wed Sep 02 12:02:14 2015] [error] [client ::1] File does not exist: /Users/GaryZren/Desktop/twitter/jade/[object Object], referer: http://garys-macbook-pro-2.local:5757/jade/?ckcachecontrol=1441209727
+[Wed Sep 02 12:03:57 2015] [error] [client ::1] File does not exist: /Users/GaryZren/Desktop/twitter/jade/[object Object], referer: http://garys-macbook-pro-2.local:5757/jade/?ckcachecontrol=1441209727
+[Wed Sep 02 12:08:06 2015] [error] [client ::1] File does not exist: /Users/GaryZren/Desktop/twitter/jade/[object Object], referer: http://garys-macbook-pro-2.local:5757/jade/?ckcachecontrol=1441210078
+[Wed Sep 02 13:00:55 2015] [error] [client ::1] File does not exist: /Users/GaryZren/Desktop/twitter/jade/[object Object], referer: http://garys-macbook-pro-2.local:5757/jade/?ckcachecontrol=1441210097
+[Wed Sep 02 14:12:37 2015] [error] [client ::1] File does not exist: /Users/GaryZren/Desktop/twitter/jade/jquery.js, referer: http://garys-macbook-pro-2.local:5757/jade/?gethashtag=%23what&submit=&ckcachecontrol=1441217558
+[Wed Sep 02 14:27:20 2015] [error] [client ::1] Directory index forbidden by Options directive: /Users/GaryZren/Desktop/twitter/
+[Wed Sep 02 22:50:56 2015] [notice] caught SIGTERM, shutting down
+[Thu Sep 03 15:35:16 2015] [notice] Digest: generating secret for digest authentication ...
+[Thu Sep 03 15:35:16 2015] [notice] Digest: done
+[Thu Sep 03 15:35:16 2015] [notice] FastCGI: process manager initialized (pid 2028)
+[Thu Sep 03 15:35:16 2015] [notice] Apache/2.2.29 (Unix) mod_wsgi/3.4 Python/2.7.8 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zf DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.8 Perl/v5.20.0 configured -- resuming normal operations
+[Thu Sep 03 15:38:22 2015] [error] [client ::1] File does not exist: /Users/GaryZren/Desktop/twitter/favicon.ico, referer: http://garys-macbook-pro-2.local:5757/jade/
+[Thu Sep 03 16:10:52 2015] [error] [client ::1] File does not exist: /Users/GaryZren/Desktop/twitter/favicon.ico, referer: http://localhost:8888/server/testClient.php
+[Thu Sep 03 23:04:44 2015] [notice] caught SIGTERM, shutting down
+[Fri Sep 04 10:45:23 2015] [notice] Digest: generating secret for digest authentication ...
+[Fri Sep 04 10:45:23 2015] [notice] Digest: done
+[Fri Sep 04 10:45:23 2015] [notice] FastCGI: process manager initialized (pid 938)
+[Fri Sep 04 10:45:23 2015] [notice] Apache/2.2.29 (Unix) mod_wsgi/3.4 Python/2.7.8 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zf DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.8 Perl/v5.20.0 configured -- resuming normal operations
+[Fri Sep 04 10:47:02 2015] [error] [client ::1] File does not exist: /Users/GaryZren/Desktop/twitter/favicon.ico, referer: http://garys-macbook-pro-2.local:5757/jade/
+[Fri Sep 04 10:59:55 2015] [error] [client ::1] File does not exist: /Users/GaryZren/Desktop/twitter/favicon.ico, referer: http://localhost:8888/server/database.php
+[Fri Sep 04 11:23:40 2015] [error] [client ::1] File does not exist: /Users/GaryZren/Desktop/twitter/docs-assets, referer: http://localhost:8888/MAMP/?language=English

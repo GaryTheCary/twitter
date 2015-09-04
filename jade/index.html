@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Twitter</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="/bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/bower_components/semantic-ui/dist/semantic.js"></script>
+    <script type="text/javascript" src="/coffee/main.js"> </script>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/bower_components/semantic-ui/dist/semantic.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <div class="menu">
+          <div id="sidebar"><i class="big sidebar icon"></i></div>
+        </div>
+        <div class="logo">
+          <div id="logo"><i class="big medium icon"></i></div>
+        </div>
+        <div class="other">
+          <div id="other"><i class="big world icon"></i></div>
+        </div>
+      </div>
+      <div class="textfield">
+        <form action="/server/gethashtag.php" id="gethashtag" method="post">
+          <div id="inputbox" class="ui fluid icon input">
+            <input type="text" placeholder="keyword is..." name="gethashtag" id="keywordfield"><i class="search icon"></i>
+          </div>
+        </form>
+      </div>
+      <div class="btnfield">
+        <div class="startBtn">
+          <button id="start" class="ui blue button">start </button>
+        </div>
+        <div class="stopBtn">
+          <button id="stop" class="ui green button">stop</button>
+        </div>
+      </div>
+      <div class="viewfield">
+        <div id="viewfeed" class="ui feed">
+          <div class="ui horizontal divider header"><i class="tag icon"></i></div>
+          <div class="event">
+            <div class="label"><img src="/bower_components/semantic-ui/examples/assets/images/avatar/nan.jpg"></div>
+            <div class="content">
+              <div class="summary"><a class="user">Nan</a>
+                <div class="date">2015/08/19</div>
+              </div>
+              <div class="extra text">
+                <p>
+                  Ours is a life of constant reruns. We're always circling back to where we'd we started, then starting all over again. 
+                  Even if we don't run extra laps that day, we surely will come back for more of the same another day soon.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="returntest">             </div>
+    </div>
+  </body>
+</html>

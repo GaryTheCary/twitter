@@ -1,0 +1,52 @@
+doctype html
+html
+  head
+    title Twitter
+    meta(charset="utf-8")
+    script(type="text/javascript" src="/bower_components/jquery/dist/jquery.js")
+    script(type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.js")
+    script(type="text/javascript" src="/bower_components/semantic-ui/dist/semantic.js")
+    script(type="text/javascript" src="/coffee/main.js") 
+    link(rel="stylesheet" type="text/css" href="/css/main.css") 
+    link(rel="stylesheet" type="text/css" href="/bower_components/semantic-ui/dist/semantic.css")
+  body
+    .container
+      .nav
+        .menu
+          #sidebar
+            i(class="big sidebar icon")
+        .logo
+          #logo
+            i(class="big medium icon")
+        .other
+          #other
+            i(class="big world icon")
+      .textfield
+        form(action="/server/gethashtag.php" id="gethashtag" method="post")
+          div(class="ui fluid icon input" id="inputbox")
+            input(type="text" placeholder="keyword is..." name="gethashtag" id="keywordfield")
+            i(class="search icon")
+
+      .btnfield
+        .startBtn
+          button(class="ui blue button" id="start") start 
+        .stopBtn
+          button(class="ui green button" id="stop") stop
+      .viewfield
+        div(class="ui feed" id="viewfeed")
+          div(class="ui horizontal divider header")
+            i(class="tag icon")
+          div(class="event")
+            div(class="label")
+              img(src="/bower_components/semantic-ui/examples/assets/images/avatar/nan.jpg")
+            div(class="content")
+              div(class="summary")
+                a(class="user") Nan
+                div(class="date") 2015/08/19
+              div(class="extra text")
+                p Ours is a life of constant reruns. We're always circling back to where we'd we started, then starting all over again. 
+                  | Even if we don't run extra laps that day, we surely will come back for more of the same another day soon.
+      .returntest              
+
+              
+
